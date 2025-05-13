@@ -6,7 +6,7 @@
         {
             try
             {
-                Console.WriteLine("Ingresar una temperatura en grados Celsius y convertirla a grados Reaumur y a grados\r\nFahrenheit.");
+                Console.WriteLine("Ingresar una temperatura en grados Celsius y convertirla a grados Reaumur y a grados Fahrenheit.");
                 double celsius, reaumur, fahrenheit;
 
                 Console.Write("Ingresar una temperatura en grados Celsius para convertir: ");
@@ -19,6 +19,8 @@
                 Console.WriteLine($"En {celsius} grados Celsius hay....:");
                 Console.WriteLine($"{reaumur} grados Reaumur");
                 Console.WriteLine($"{fahrenheit} grados Fahrenheit");
+
+                Console.ReadKey();
             }
             catch (FormatException ex)
             {
